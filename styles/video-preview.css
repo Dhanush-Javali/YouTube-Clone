@@ -1,0 +1,126 @@
+.video-grid {
+    padding-top: 25px;
+    padding-left: 25px ;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    margin-top: 57px;
+    margin-left: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+
+    /* background-color: rgba(240, 240, 240, 0.626); */
+
+}
+
+@media (max-width: 750px)
+{
+    .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px)
+{
+    .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px)
+{
+    .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+
+/* .video-container {
+    border: 1px solid red; 
+     width: 350px;
+} */
+
+.thumbnail-container {
+    position: relative;
+}
+
+.timestamp {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+
+    position: absolute;
+    padding: 2.8px 5px;
+    bottom: 11px;
+    right: 4px;
+}
+
+.thumbnail {
+    width: 100%;
+    cursor: pointer;
+}
+
+.video-info-grid {
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    margin-left: 2px;
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    
+}
+
+/* .profile-pic-container {
+    border: 1px solid blue;
+} */
+
+.profile-pic {
+    width: 38px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.details-cantainer {
+    /* border: 2px solid greenyellow; */
+    margin-left: 5px;
+}
+
+.title {
+    /* border: 1px solid black; */
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.author {
+    color: rgb(65, 65, 65);
+    /* border: 1px solid black; */
+    margin: 0;
+    font-size: 12px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.channel-link {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+.stats {
+    color: rgb(65, 65, 65);
+    /* border: 1px solid black; */
+    font-size: 12px;
+    margin: 0;
+}
